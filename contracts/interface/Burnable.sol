@@ -16,6 +16,7 @@ contract Burnable is Controlled {
   /// target of the function must be the burner
   modifier onlyControllerOrBurner(address target) {
     assert(msg.sender == controller || (msg.sender == burner && msg.sender == target));
+
     _;
   }
 
