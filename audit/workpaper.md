@@ -1,7 +1,7 @@
-```
+
 [/contracts/MiniMeToken.sol](/contracts/MiniMeToken.sol) as at
 7619e30d5247fd0f2743577884b387df7a464607
-
+```
 |------------------------------------------------------------------------------------------------------------------------------------------------|
 |      Contract      |                          Function                          | Visibility | Constant |   Returns   |       Modifiers        |
 |--------------------|------------------------------------------------------------|------------|----------|-------------|------------------------|
@@ -29,20 +29,20 @@
 | MiniMeToken        | claimTokens(address)                                       | public     | false    |             | onlyController         |
 | MiniMeTokenFactory | createCloneToken(address,uint,string,uint8,string,bool)    | public     | false    | MiniMeToken |                        |
 '------------------------------------------------------------------------------------------------------------------------------------------------'
-
+```
 [/contracts/SIT.sol](/contracts/SIT.sol) as at
 7619e30d5247fd0f2743577884b387df7a464607
-
+```
 |-------------------------------------------------------------------------|
 | Contract |   Function   | Visibility | Constant | Returns |  Modifiers  |
 |----------|--------------|------------|----------|---------|-------------|
 | SIT      | SIT(address) | public     | false    |         | MiniMeToken |
 '-------------------------------------------------------------------------'
-
+```
 
 [/contracts/MSP.sol](/contracts.sol) as at    
 7619e30d5247fd0f2743577884b387df7a464607  
-
+```
 |-------------------------------------------------------------------------|
 | Contract |   Function   | Visibility | Constant | Returns |  Modifiers  |
 |----------|--------------|------------|----------|---------|-------------|
